@@ -12,6 +12,14 @@ user_bet = screen.textinput(title="Make your bet", prompt="Which turtle will win
 colors = ["red", "blue", "orange", "yellow", "green", "purple"]
 turtles =[]
 
+# WRITING ON THE TOP
+writing = Turtle(shape="turtle")
+writing.fillcolor("black")
+writing.hideturtle()
+writing.penup()
+writing.goto(x=-20,y=130)
+writing.write("🏁 TURTLE RACING 🏁", align="center", font=("Courier", 20, "normal"))
+writing.penup()
 
 # REFEREE TURTLE
 ref = Turtle(shape="turtle")
